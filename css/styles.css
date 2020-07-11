@@ -372,6 +372,12 @@ body {
 
 .footer {
   background-color: var(--footer-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .container {
+  display: flex;
 }
 
 .footer .footer-list-link-adress {
