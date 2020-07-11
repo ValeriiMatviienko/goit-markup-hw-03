@@ -329,7 +329,32 @@ body {
 
 /* Clients */
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients .clients-list {
+  display: flex;
+}
+
+.clients-list .clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-list .clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .clients-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
