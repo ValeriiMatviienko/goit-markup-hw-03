@@ -379,6 +379,10 @@ body {
   display: flex;
 }
 
+.footer-list {
+  margin-right: 69px;
+}
+
 .footer .footer-list-link-adress {
   margin-bottom: 9px;
   font-weight: 400;
@@ -406,6 +410,11 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
+}
+
+.social-list .social-list-item {
+  display: flex;
+  justify-content: center;
 }
 
 .social-list .social-list-item:not(:last-child) {
