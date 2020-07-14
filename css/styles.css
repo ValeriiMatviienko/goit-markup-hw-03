@@ -310,11 +310,11 @@ body {
 
 .team-list .list-img {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .list-img .list-list-link:not(:last-child) {
-  margin-right: 10px;
+  margin-right: 34px;
 }
 
 .team .team-social-link:hover,
