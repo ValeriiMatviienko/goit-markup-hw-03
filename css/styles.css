@@ -487,6 +487,8 @@ body {
 }
 
 .examples-title {
+  padding-left: 24px;
+  padding-right: 24px;
   margin-top: 0;
   margin-bottom: 4px;
   font-weight: 700;
@@ -506,6 +508,7 @@ body {
   height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .examples-list-items:nth-child(3n) {
@@ -517,10 +520,17 @@ body {
 }
 
 .ex-img {
+  display: block;
   margin-bottom: 20px;
 }
 
+.examples-descr {
+  margin: 0;
+}
+
 .examples-list .examples-name {
+  padding-left: 24px;
+  padding-right: 24px;
   margin: 0;
   font-weight: 400;
   font-size: 16px;
