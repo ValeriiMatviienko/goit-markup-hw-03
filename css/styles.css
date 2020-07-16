@@ -207,6 +207,10 @@ body {
 
 /* What we do section */
 
+.we-do {
+  padding-bottom: 94px;
+}
+
 .we-do-title {
   margin-top: 0px;
   margin-bottom: 50px;
@@ -236,6 +240,8 @@ body {
 }
 
 .we-do .we-do-text {
+  padding-top: 27px;
+  padding-bottom: 27px;
   margin-top: 0px;
   margin-bottom: 0px;
   font-weight: 700;
